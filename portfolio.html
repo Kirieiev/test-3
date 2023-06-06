@@ -10,15 +10,16 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Portfolio</title>
   </head>
   <body>
     <!-- Header -->
     <header class="header">
+      <div class="container header-container">
       <nav class="nav">
-        <a href="./index.html" class="logo-link link">WEB
-          <span class="link-studio">Studio</span></a
+        <a href="./index.html" class="logo-link link">WEB<span class="link-studio">Studio</span></a
         >
         <ul class="nav-list list">
           <li>
@@ -45,13 +46,15 @@
           </li>
         </ul>
       </address>
+      </div>
     </header>
 
     <!-- Main content -->
     <main>
       
       <section class="portfolio">
-        <h1 class="filter-title">Filter</h1>
+        <div class="container container-portfolio">
+        <h1 class="visually-hidden">Filter</h1>
         <ul class="filter-list list">
           <li><button type="button" class="button">All</button></li>
           <li><button type="button" class="button">Web Site</button></li>
@@ -60,7 +63,7 @@
           <li><button type="button" class="button">Marketing</button></li>
         </ul>
         <ul class="portfolio-list list">
-          <li>
+          <li class="category-item">
             <a href="" class="link">
               <img
                 src="./images/img-8.jpg"
@@ -69,11 +72,12 @@
                 height="300"
                 class="portfolio-img"
               />
+              <div class="text-box">
               <h2 class="portfolio-name">Banking App Interface Concept</h2>
-              <p class="portfolio-type">App</p></a
-            >
+              <p class="portfolio-type">App</p>
+              </div>
           </li>
-          <li>
+          <li class="category-item">
             <a href="" class="link"
               ><img
                 src="./images/img-9.jpg"
@@ -82,11 +86,12 @@
                 height="300"
                 class="portfolio-img"
               />
+              <div class="text-box">
               <h2 class="portfolio-name">Cashless Payment</h2>
-              <p class="portfolio-type">Marketing</p></a
-            >
+              <p class="portfolio-type">Marketing</p>
+              </div>
           </li>
-          <li>
+          <li class="category-item">
             <a href="" class="link"
               ><img
                 src="./images/img-10.jpg"
@@ -95,11 +100,14 @@
                 height="300"
                 class="portfolio-img"
               />
+              <div class="text-box">
               <h2 class="portfolio-name">Meditation App</h2>
-              <p class="portfolio-type">App</p></a
-            >
+              <p class="portfolio-type">App</p>
+              </div>
           </li>
-          <li>
+        </ul>
+        <ul class="portfolio-list list">
+          <li class="category-item">
             <a href="" class="link"
               ><img
                 src="./images/img-11.jpg"
@@ -108,11 +116,12 @@
                 height="300"
                 class="portfolio-img"
               />
+              <div class="text-box">
               <h2 class="portfolio-name">Taxi Service</h2>
-              <p class="portfolio-type">Marketing</p></a
-            >
+              <p class="portfolio-type">Marketing</p>
+              </div>
           </li>
-          <li>
+          <li class="category-item">
             <a href="" class="link"
               ><img
                 src="./images/img-12.jpg"
@@ -121,11 +130,12 @@
                 height="300"
                 class="portfolio-img"
               />
+              <div class="text-box">
               <h2 class="portfolio-name">Screen Illustrations</h2>
-              <p class="portfolio-type">Design</p></a
-            >
+              <p class="portfolio-type">Design</p>
+              </div>
           </li>
-          <li>
+          <li class="category-item">
             <a href="" class="link"
               ><img
                 src="./images/img-13.jpg"
@@ -134,11 +144,14 @@
                 height="300"
                 class="portfolio-img"
               />
+              <div class="text-box">
               <h2 class="portfolio-name">Online Courses</h2>
-              <p class="portfolio-type">Marketing</p></a
-            >
+              <p class="portfolio-type">Marketing</p>
+              </div>
           </li>
-          <li>
+        </ul>
+          <ul class="portfolio-list list">
+          <li class="category-item">
             <a href="" class="link"
               ><img
                 src="./images/img-14.jpg"
@@ -147,11 +160,12 @@
                 height="300"
                 class="portfolio-img"
               />
+              <div class="text-box">
               <h2 class="portfolio-name">Instagram Stories Concept</h2>
-              <p class="portfolio-type">Design</p></a
-            >
+              <p class="portfolio-type">Design</p>
+              </div>
           </li>
-          <li>
+          <li class="category-item">
             <a href="" class="link"
               ><img
                 src="./images/img-15.jpg"
@@ -160,11 +174,12 @@
                 height="300"
                 class="portfolio-img"
               />
+              <div class="text-box">
               <h2 class="portfolio-name">Organic Food</h2>
-              <p class="portfolio-type">Web Site</p></a
-            >
+              <p class="portfolio-type">Web Site</p>
+              </div>
           </li>
-          <li>
+          <li class="category-item">
             <a href="" class="link"
               ><img
                 src="./images/img-16.jpg"
@@ -173,16 +188,19 @@
                 height="300"
                 class="portfolio-img"
               />
+              <div class="text-box">
               <h2 class="portfolio-name">Fresh Coffee</h2>
-              <p class="portfolio-type">Web Site</p></a
-            >
+              <p class="portfolio-type">Web Site</p>
+              </div>
           </li>
         </ul>
+        </div>
       </section>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
+      <div class="container footer-container">
       <a href="./index.html" class="link"
         >Web<span class="link-web">Studio</span></a
       >
@@ -190,6 +208,7 @@
         Increase the flow of customers and<br />sales for your business with
         digital<br />marketing & growth solutions.
       </p>
+      </div>
     </footer>
   </body>
 </html>
